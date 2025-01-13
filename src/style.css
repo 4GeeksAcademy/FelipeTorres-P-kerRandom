@@ -1,1 +1,65 @@
-@import "~bootstrap/dist/css/bootstrap.min.css";
+body {
+  background: rgb(6, 133, 6);
+}
+
+h1 {
+  text-align: center;
+  font-size: 70px;
+}
+p {
+  text-align: center;
+  font-size: 35px;
+}
+
+.card {
+  background: whitesmoke;
+  height: 300px;
+  width: 200px;
+  border: 2px solid red;
+  border-radius: 5px;
+  padding: 5px;
+  margin: auto;
+  position: relative;
+}
+.icon_top {
+  font-size: 82px;
+  position: absolute;
+  top: -14px;
+  left: 4px;
+}
+.icon_central {
+  font-size: 155px;
+  padding: 10px;
+  position: absolute;
+  top: 49px;
+  width: 180px;
+  text-align: center;
+}
+.icon_bottom {
+  font-size: 80px;
+  position: absolute;
+  bottom: -10px;
+  right: 2px;
+  transform: rotate(180deg);
+}
+
+.buttom_controlers {
+  background: orangered;
+  margin: auto;
+  position: relative;
+  height: 22px;
+  width: 343px;
+  padding: 5px;
+}
+
+.cardred {
+  color: red;
+  background: whitesmoke;
+  height: 300px;
+  width: 200px;
+  border: 2px solid red;
+  border-radius: 5px;
+  padding: 5px;
+  margin: auto;
+  position: relative;
+}
